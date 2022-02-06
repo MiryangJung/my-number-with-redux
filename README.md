@@ -1,5 +1,5 @@
 # My Number with Redux
-> 리덕스 공부용 프로젝트
+> 리덕스 공부용 프로젝트  
 > Demo : [my-number-with-redux.netlify.app](https://my-number-with-redux.netlify.app/)
 
 ## 작동  
