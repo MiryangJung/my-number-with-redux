@@ -1,5 +1,6 @@
 # My Number with Redux
 > 리덕스 공부용 프로젝트
+> Demo : [my-number-with-redux.netlify.app](https://my-number-with-redux.netlify.app/)
 
 ## 작동  
 - 이름과 숫자를 입력받습니다.
