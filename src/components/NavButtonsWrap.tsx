@@ -31,7 +31,7 @@ export default function NavButtonsWrap() {
   ]
   return (
     <NavButtonsWrapStyle>
-      {data.map((item, index) => {
+      {data.map(item => {
         return <NavButton key={item.text} text={item.text} height={item.height} nav={item.nav} />
       })}
     </NavButtonsWrapStyle>
