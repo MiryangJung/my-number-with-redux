@@ -9,7 +9,7 @@
 ## 실행
 [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) 설치  
 ```shell
-yarn install
+yarn
 yarn start
 ```
 

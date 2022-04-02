@@ -1,19 +1,20 @@
-import { NavButtonStyle } from './NavButton.style'
+import { NavButtonStyle, Line, Round } from './NavButton.style'
 import { useNavigate } from 'react-router-dom'
 
 export default function NavButton({
-  color,
+  height,
   text,
   nav,
 }: {
-  color: string
+  height: number
   text: string
   nav: string
 }) {
   const navigate = useNavigate()
   return (
-    <NavButtonStyle color={color} onClick={() => navigate(nav)}>
-      {text}
+    <NavButtonStyle height={height}>
+      <Line />
+      <Round onClick={() => navigate(nav)}>{text}</Round>
     </NavButtonStyle>
   )
 }
